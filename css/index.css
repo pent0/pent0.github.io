@@ -1,0 +1,31 @@
+@import url('basic.css');
+
+.background {
+    background-image: url(../assets/back.jpg);
+    height: 100%;
+    
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+
+    display: inline;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myname {
+    position: fixed;
+    left: 4%;
+    top: 4%;
+    
+    font-family: 'Lacquer';
+    font-size: 500%;
+    
+    color: rgb(255, 255, 255);
+}
