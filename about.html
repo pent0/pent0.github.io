@@ -4,14 +4,14 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/about.css" />
         <link rel="icon" href="assets/icon.png" />
 		<title>pent0!</title>
 	</head>
     
     <body>
         <div class = "background"></div>
-        <div class = "main">
+        <div class = "main" id = "main">
             <div class = "options">
                 <a href = "about.html" class = "option-button">
                     About
@@ -23,7 +23,36 @@
                     Home
                 </a>
             </div>
-            <img src = "assets/KingHassAF.png" style="float:right; display: inline; max-width: 70%; max-height: 70%; margin-right: 6%" />
+            <div class ="showcases" id="showcases">
+                <div class = "trophy fade">
+                    <img src = "assets/KingHassAF.png" />
+                    <div class = "description">My stan 1</div>
+                </div>
+                
+                <div class = "trophy fade">
+                    <img src = "assets/flamebringer.png" />
+                    <div class = "description">My stan 2</div>
+                </div>
+                
+                <div class = "trophy fade">
+                    <img src = "assets/w.png" />
+                    <div class = "description">My stan 3</div>
+                </div>
+
+                <div class = "trophy fade">
+                    <img src = "assets/MadEyes.png" />
+                    <div class = "description">Stan the old man</div>
+                </div>
+
+                <div class = "trophy fade">
+                    <img src = "assets/badgec.png" />
+                    <div class = "description">Identity V with Badge C Mad Eyes</div>
+                </div>
+
+                <a class="showcase_prev" onclick="prev_slide()">&#10094;</a>
+                <a class="showcase_next" onclick="next_slide()">&#10095;</a>
+            </div>
+
             <p>Hi, I'm bent.</p>
             <p>When there is freetime, I work on stuff I like.</p>
             <p>If you like what I do, you can donate through
@@ -31,6 +60,7 @@
             </p>
             <p style = "padding-bottom: 50px" />
             <p><b>FGO</b>: Lan Yến 040,043,051</p>
+            <p><b>Arknights</b>: lanyen#7223 (ID: 31183012)</p>
             <p><b>Identity V</b>: LanYến</p>
         </div>
         <div class = "footer">
@@ -41,5 +71,7 @@
                 <img src = "assets/twitter_icon.png" class="icon"/>
             </a>
         </div>
+        
+        <script src = "js/showcases.js"></script>
     </body>
 </html>
