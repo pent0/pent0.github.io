@@ -22,6 +22,7 @@ function show_slide(slide_index) {
     }
 
     showcases[slide_index].style.display = "block";
+    showcases[slide_index].style.textAlign = "center";
 
     return slide_index;
 }

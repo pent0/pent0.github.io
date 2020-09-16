@@ -7,7 +7,8 @@
     height: 70%;
     max-width: 30%;
     max-height: 70%;
-    margin-right: 5%;
+    margin-top: 1%;
+    margin-right: 3%;
     display: flex;
     align-items : center;
 }
@@ -17,8 +18,8 @@
     height: auto;
     max-width: 100%;
     max-height: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     display: none;
 }
@@ -34,24 +35,31 @@
 
 .description {
     text-align: center;
-    color: purple;
+    color: rgb(255, 255, 255);
     position: relative;
     display: block;
+    font-size: large;
 }
 
 .showcase_prev, .showcase_next {
-    top: 50%;
+    top: auto;
     width: auto;
-    color: black;
+    color: rgb(145, 95, 55);
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    position: absolute;
+    position: relative;
+    display: block;
+    z-index: 10;
+}
+
+.showcase_prev {
+    margin-right: 10px;
 }
 
 .showcase_next {
-    right: 0px;
+    margin-left: 10px;
 }
 
 .fade {

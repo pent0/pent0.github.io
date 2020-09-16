@@ -20,9 +20,10 @@
 }
 
 .myname {
-    position: fixed;
+    position: absolute;
+    display: block;
     left: 4%;
-    top: 4%;
+    top: 1%;
     
     font-family: 'Lacquer';
     font-size: 500%;
