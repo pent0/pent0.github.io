@@ -1,4 +1,4 @@
-const TWITTER_USERNAME = "25200323l1";
+const TWITTER_USERNAME = "ccjkz11";
 const GITHUB_USERNAME = "pent0";
 const SOCIAL_FOOTER_ID = "social_footer";
 
@@ -25,7 +25,7 @@ function show_social_info() {
             "icon": "twitter_icon.png"
         }
     ];
-
+	
     social_infos.forEach(item => {
         ref_link = document.createElement("a");
         ref_link.href = item["baselink"] + item["username"];

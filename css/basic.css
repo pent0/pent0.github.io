@@ -46,7 +46,7 @@ a {
     margin-bottom: 10px;
     
     text-decoration: none;
-    color: rgb(233, 233, 233);
+    color: rgb(198, 198, 198);
 }
 
 a:hover {
@@ -100,7 +100,7 @@ newpara {
 
 .footer {
     position: fixed;
-    left: 0;
+    left: 3%;
     bottom: 3%;
     right: 6%;
     width: 94%;
